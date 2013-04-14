@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	margin: 2em 0 0;
+}
+h1{
+	text-align:center;
+}
+.button.circle {
+	background-color: #EEEEEE;
+    border-color: #EEEEEE;    
+    border-radius: 50% 50% 50% 50%;
+    color: #000000;
+    padding: 15% 0;
+    width: 50%;
+}
+.side-nav{
+	width:90%;
+	margin:0 auto;
+	text-align:center;
+}
+.side-nav li a, .side-nav li.active a, .side-nav li a:hover{
+	text-transform: uppercase;
+	font-weight: normal;
+	color:#2BA6CB;
+}
+.side-nav a.round{
+	background-color: transparent;
+	border-color: #BBBBBB;
+}
+.side-nav a.txt{
+	text-decoration: underline;
+}
+@media all and (min-width:800px) {
+	.side-nav li div{
+		float: right;
+    	padding-right: 2em;
+	}
+}
