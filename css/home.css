@@ -11,6 +11,7 @@ h1{
     border-color: #EEEEEE;    
     border-radius: 50% 50% 50% 50%;
     color: #000000;
+    margin:0;
     padding: 15% 0;
     width: 50%;
 }
