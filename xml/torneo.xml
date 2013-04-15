@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <torneo>
-	<jornadas>
+	<jornadas id="1">
 		<jornada id="1" fecha ="Jueves, Mayo 9">
 			<encuentro id="1" hora="9:00 a.m." lugar="CF" grupo="A">
 				<equipo1 nombre="CRC" goles="2" bandera="" ></equipo1>
@@ -108,5 +108,87 @@
 				<equipo2 nombre="" goles="" bandera="" ></equipo2>
 			</encuentro>
 		</jornada>
-	</jornadas>	
+	</jornadas>
+	<rondaFinal>
+		<jornada id="1" fecha ="Jueves, Mayo 9">
+			<encuentro id="1" hora="9:00 a.m." lugar="CF">
+				<equipo1 nombre="CRC" goles="2" bandera="" ></equipo1>
+				<equipo2 nombre="MEX" goles="0" bandera="" ></equipo2>
+			</encuentro>
+			<encuentro id="2" hora="9:00 a.m." lugar="CF">
+				<equipo1 nombre="" goles="" bandera="" ></equipo1>
+				<equipo2 nombre="" goles="" bandera="" ></equipo2>
+			</encuentro>
+			<encuentro id="3" hora="9:00 a.m." lugar="CF">
+				<equipo1 nombre="" goles="" bandera="" ></equipo1>
+				<equipo2 nombre="" goles="" bandera="" ></equipo2>
+			</encuentro>
+			<encuentro id="4" hora="9:00 a.m." lugar="CM">
+				<equipo1 nombre="" goles="" bandera="" ></equipo1>
+				<equipo2 nombre="" goles="" bandera="" ></equipo2>
+			</encuentro>
+			<encuentro id="5" hora="9:00 a.m." lugar="CM">
+				<equipo1 nombre="" goles="" bandera="" ></equipo1>
+				<equipo2 nombre="" goles="" bandera="" ></equipo2>
+			</encuentro>
+			<encuentro id="6" hora="9:00 a.m." lugar="CM">
+				<equipo1 nombre="" goles="" bandera="" ></equipo1>
+				<equipo2 nombre="" goles="" bandera="" ></equipo2>
+			</encuentro>
+		</jornada>
+		
+		<jornada id="2" fecha ="Viernes, Mayo 10">
+			<encuentro id="1" hora="" lugar="">
+				<equipo1 nombre="" goles="" bandera="" ></equipo1>
+				<equipo2 nombre="" goles="" bandera="" ></equipo2>
+			</encuentro>
+			<encuentro id="2" hora="" lugar="">
+				<equipo1 nombre="" goles="" bandera="" ></equipo1>
+				<equipo2 nombre="" goles="" bandera="" ></equipo2>
+			</encuentro>
+			<encuentro id="3" hora="" lugar="">
+				<equipo1 nombre="" goles="" bandera="" ></equipo1>
+				<equipo2 nombre="" goles="" bandera="" ></equipo2>
+			</encuentro>
+			<encuentro id="4" hora="" lugar="">
+				<equipo1 nombre="" goles="" bandera="" ></equipo1>
+				<equipo2 nombre="" goles="" bandera="" ></equipo2>
+			</encuentro>
+			<encuentro id="5" hora="" lugar="">
+				<equipo1 nombre="" goles="" bandera="" ></equipo1>
+				<equipo2 nombre="" goles="" bandera="" ></equipo2>
+			</encuentro>
+			<encuentro id="6" hora="" lugar="">
+				<equipo1 nombre="" goles="" bandera="" ></equipo1>
+				<equipo2 nombre="" goles="" bandera="" ></equipo2>
+			</encuentro>
+		</jornada>
+		
+		<jornada id="3" fecha ="Sabado, Mayo 11">
+			<encuentro id="1" hora="" lugar="">
+				<equipo1 nombre="" goles="" bandera="" ></equipo1>
+				<equipo2 nombre="" goles="" bandera="" ></equipo2>
+			</encuentro>
+			<encuentro id="2" hora="" lugar="">
+				<equipo1 nombre="" goles="" bandera="" ></equipo1>
+				<equipo2 nombre="" goles="" bandera="" ></equipo2>
+			</encuentro>
+			<encuentro id="3" hora="" lugar="">
+				<equipo1 nombre="" goles="" bandera="" ></equipo1>
+				<equipo2 nombre="" goles="" bandera="" ></equipo2>
+			</encuentro>
+			<encuentro id="4" hora="" lugar="">
+				<equipo1 nombre="" goles="" bandera="" ></equipo1>
+				<equipo2 nombre="" goles="" bandera="" ></equipo2>
+			</encuentro>
+			<encuentro id="5" hora="" lugar="">
+				<equipo1 nombre="" goles="" bandera="" ></equipo1>
+				<equipo2 nombre="" goles="" bandera="" ></equipo2>
+			</encuentro>
+			<encuentro id="6" hora="" lugar="">
+				<equipo1 nombre="" goles="" bandera="" ></equipo1>
+				<equipo2 nombre="" goles="" bandera="" ></equipo2>
+			</encuentro>
+		</jornada>
+	</rondaFinal>
 </torneo>
