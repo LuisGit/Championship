@@ -11,7 +11,7 @@
 	  	<div class="row">
 			<ul class="side-nav">
 			  <li class="active"><a href="grupos.php" class="button radius"><span>Primera Ronda</span> Clasificaci&oacute;n por grupos</a></li>
-			  <li><a href="#" class="button radius"><span>Segunda Ronda</span> Eliminatorias finales</a></li>
+			  <li><a href="final.php" class="button radius"><span>Segunda Ronda</span> Eliminatorias finales</a></li>
 			  </ul>		
 		</div>
 <?php

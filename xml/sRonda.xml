@@ -78,8 +78,8 @@
 	<tablaPosiciones>
 		<posicion>
 			<lugar>1</lugar>
-			<nombre></nombre>
-			<banderaImgPath></banderaImgPath>
+			<nombre>Costa Rica</nombre>
+			<banderaImgPath>images/cr.gif</banderaImgPath>
 		</posicion>
 		<posicion>
 			<lugar>2</lugar>
@@ -88,8 +88,8 @@
 		</posicion>
 		<posicion>
 			<lugar>3</lugar>
-			<nombre></nombre>
-			<banderaImgPath></banderaImgPath>
+			<nombre>Mexico</nombre>
+			<banderaImgPath>images/mexico.jpg</banderaImgPath>
 		</posicion>
 		<posicion>
 			<lugar>4</lugar>
