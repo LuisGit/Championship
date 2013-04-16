@@ -2,7 +2,16 @@
 <torneo>
 	<grupos>
 		<grupoA>
-			<equpo>
+			<equipo>
+				<nombre>Costa Rica</nombre>
+				<banderaImgPath>images/cr.gif</banderaImgPath>
+				<pj>0</pj>
+				<pg>0</pg>
+				<pe>0</pe>
+				<pp>0</pp>
+				<pts>0</pts>
+			</equipo>
+			<equipo>
 				<nombre></nombre>
 				<banderaImgPath></banderaImgPath>
 				<pj></pj>
@@ -10,8 +19,8 @@
 				<pe></pe>
 				<pp></pp>
 				<pts></pts>
-			</equpo>
-			<equpo>
+			</equipo>
+			<equipo>
 				<nombre></nombre>
 				<banderaImgPath></banderaImgPath>
 				<pj></pj>
@@ -19,8 +28,8 @@
 				<pe></pe>
 				<pp></pp>
 				<pts></pts>
-			</equpo>
-			<equpo>
+			</equipo>
+			<equipo>
 				<nombre></nombre>
 				<banderaImgPath></banderaImgPath>
 				<pj></pj>
@@ -28,20 +37,20 @@
 				<pe></pe>
 				<pp></pp>
 				<pts></pts>
-			</equpo>
-			<equpo>
-				<nombre></nombre>
-				<banderaImgPath></banderaImgPath>
-				<pj></pj>
-				<pg></pg>
-				<pe></pe>
-				<pp></pp>
-				<pts></pts>
-			</equpo>
+			</equipo>
 		</grupoA>
 		
 		<grupoB>
-			<equpo>
+			<equipo>
+				<nombre>Costa Rica 2</nombre>
+				<banderaImgPath>images/cr.gif</banderaImgPath>
+				<pj>0</pj>
+				<pg>0</pg>
+				<pe>0</pe>
+				<pp>0</pp>
+				<pts>0</pts>
+			</equipo>
+			<equipo>
 				<nombre></nombre>
 				<banderaImgPath></banderaImgPath>
 				<pj></pj>
@@ -49,8 +58,8 @@
 				<pe></pe>
 				<pp></pp>
 				<pts></pts>
-			</equpo>
-			<equpo>
+			</equipo>
+			<equipo>
 				<nombre></nombre>
 				<banderaImgPath></banderaImgPath>
 				<pj></pj>
@@ -58,8 +67,8 @@
 				<pe></pe>
 				<pp></pp>
 				<pts></pts>
-			</equpo>
-			<equpo>
+			</equipo>
+			<equipo>
 				<nombre></nombre>
 				<banderaImgPath></banderaImgPath>
 				<pj></pj>
@@ -67,20 +76,11 @@
 				<pe></pe>
 				<pp></pp>
 				<pts></pts>
-			</equpo>
-			<equpo>
-				<nombre></nombre>
-				<banderaImgPath></banderaImgPath>
-				<pj></pj>
-				<pg></pg>
-				<pe></pe>
-				<pp></pp>
-				<pts></pts>
-			</equpo>
+			</equipo>
 		</grupoB>
 		
 		<grupoC>
-			<equpo>
+			<equipo>
 				<nombre></nombre>
 				<banderaImgPath></banderaImgPath>
 				<pj></pj>
@@ -88,8 +88,8 @@
 				<pe></pe>
 				<pp></pp>
 				<pts></pts>
-			</equpo>
-			<equpo>
+			</equipo>
+			<equipo>
 				<nombre></nombre>
 				<banderaImgPath></banderaImgPath>
 				<pj></pj>
@@ -97,8 +97,8 @@
 				<pe></pe>
 				<pp></pp>
 				<pts></pts>
-			</equpo>
-			<equpo>
+			</equipo>
+			<equipo>
 				<nombre></nombre>
 				<banderaImgPath></banderaImgPath>
 				<pj></pj>
@@ -106,8 +106,8 @@
 				<pe></pe>
 				<pp></pp>
 				<pts></pts>
-			</equpo>
-			<equpo>
+			</equipo>
+			<equipo>
 				<nombre></nombre>
 				<banderaImgPath></banderaImgPath>
 				<pj></pj>
@@ -115,7 +115,7 @@
 				<pe></pe>
 				<pp></pp>
 				<pts></pts>
-			</equpo>
+			</equipo>
 		</grupoC>
 	</grupos>
 	
