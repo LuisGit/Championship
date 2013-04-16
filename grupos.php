@@ -1,8 +1,8 @@
 <?php
-$xml = simplexml_load_file("xml/torneo.xml") 
+$xml = simplexml_load_file("xml/pRonda.xml",null,true) 
 		   or die("Error: Cannot create object");
 		   
-	foreach($xml->children() as $jornadas){
+	foreach($xml->xpath('jornadas') as $jornadas){
 		foreach($jornadas->children() as $jornada){
 	  		echo "Jornada: " . $jornada['fecha'];
 			echo "<br />";
