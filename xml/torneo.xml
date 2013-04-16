@@ -160,4 +160,68 @@
 			</encuentro>
 		</jornada>
 	</rondaFinal>
+	
+	<tablaPosiciones>
+		<posicion>
+			<lugar>1</lugar>
+			<nombre></nombre>
+			<bandera></bandera>
+		</posicion>
+		<posicion>
+			<lugar>2</lugar>
+			<nombre></nombre>
+			<bandera></bandera>
+		</posicion>
+		<posicion>
+			<lugar>3</lugar>
+			<nombre></nombre>
+			<bandera></bandera>
+		</posicion>
+		<posicion>
+			<lugar>4</lugar>
+			<nombre></nombre>
+			<bandera></bandera>
+		</posicion>
+		<posicion>
+			<lugar>5</lugar>
+			<nombre></nombre>
+			<bandera></bandera>
+		</posicion>
+		<posicion>
+			<lugar>6</lugar>
+			<nombre></nombre>
+			<bandera></bandera>
+		</posicion>
+		<posicion>
+			<lugar>7</lugar>
+			<nombre></nombre>
+			<bandera></bandera>
+		</posicion>
+		<posicion>
+			<lugar>8</lugar>
+			<nombre></nombre>
+			<bandera></bandera>
+		</posicion>
+		<posicion>
+			<lugar>9</lugar>
+			<nombre></nombre>
+			<bandera></bandera>
+		</posicion>
+		<posicion>
+			<lugar>10</lugar>
+			<nombre></nombre>
+			<bandera></bandera>
+		</posicion>
+		<posicion>
+			<lugar>11</lugar>
+			<nombre></nombre>
+			<bandera></bandera>
+		</posicion>
+		<posicion>
+			<lugar>12</lugar>
+			<nombre></nombre>
+			<bandera></bandera>
+		</posicion>
+	
+	</tablaPosiciones>
 </torneo>
