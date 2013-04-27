@@ -21,7 +21,7 @@ h1{
 	text-align:center;
 }
 .side-nav li a, .side-nav li.active a, .side-nav li a:hover{
-	text-transform: uppercase;
+	font-family:'Ubuntu-L', 'arial', 'helvetica';
 	font-weight: normal;
 	color:#2BA6CB;
 }

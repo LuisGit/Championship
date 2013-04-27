@@ -2,7 +2,7 @@ $(document).ready(function() {
 	
 	/*Home Page*/
 	$(".home h1").fitText();
-	$(".home li").fitText(2);
+	$(".home li").fitText(1.1);
 	
 	/*Navigation*/
 	$("nav a").fitText(1, { minFontSize: '15', maxFontSize: '30' });

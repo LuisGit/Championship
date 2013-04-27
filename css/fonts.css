@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/****FONTS*****/
+@font-face {
+font-family: 'Ubuntu-B';
+    src:url('../fonts/Ubuntu-B.ttf') format('truetype');
+}
+@font-face {
+font-family: 'Ubuntu-BI';
+    src:url('../fonts/Ubuntu-BI.ttf') format('truetype');
+}
+@font-face {
+font-family: 'Ubuntu-C';
+    src:url('../fonts/Ubuntu-C.ttf') format('truetype');
+}
+@font-face {
+font-family: 'Ubuntu-L';
+    src:url('../fonts/Ubuntu-L.ttf') format('truetype');
+}
+@font-face {
+font-family: 'Ubuntu-LI';
+    src:url('../fonts/Ubuntu-LI.ttf') format('truetype');
+}
+@font-face {
+font-family: 'Ubuntu-M';
+    src:url('../fonts/Ubuntu-M.ttf') format('truetype');
+}
+@font-face {
+font-family: 'Ubuntu-MI';
+    src:url('../fonts/Ubuntu-MI.ttf') format('truetype');
+}
+@font-face {
+font-family: 'Ubuntu-R';
+    src:url('../fonts/Ubuntu-RI.ttf') format('truetype');
+}
+@font-face {
+font-family: 'Ubuntu-RI';
+    src:url('../fonts/Ubuntu-RI.ttf') format('truetype');
+}
+@font-face {
+font-family: 'UbuntuMono-B';
+    src:url('../fonts/UbuntuMono-B.ttf') format('truetype');
+}
+@font-face {
+font-family: 'UbuntuMono-BI';
+    src:url('../fonts/UbuntuMono-BI.ttf') format('truetype');
+}
+@font-face {
+font-family: 'UbuntuMono-R';
+    src:url('../fonts/UbuntuMono-R.ttf') format('truetype');
+}
+@font-face {
+font-family: 'UbuntuMono-RI';
+    src:url('../fonts/UbuntuMono-RI.ttf') format('truetype');
+}

@@ -9,6 +9,7 @@
 
   	<link rel="stylesheet" href="css/normalize.css" />
   	<link rel="stylesheet" href="css/foundation.css" />
+  	<link rel="stylesheet" href="css/fonts.css" />
   	<link rel="stylesheet" href="css/site.css" />
 	<?php if($cssPage) echo '<link rel="stylesheet" type="text/css" href="css/'.$cssPage.'.css">';?>
 	<title><?php echo $title;?></title>

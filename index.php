@@ -18,8 +18,8 @@
 	  <div class="large-6 columns">
 	  	<div class="row">
 			<ul class="side-nav">
-			  <li class="active"><a href="seleccionRonda.php" class="button round">ver torneo</a></li>
-			  <li><a href="#" class="button round">ver fotos</a></li>
+			  <li class="active"><a href="seleccionRonda.php" class="button round">Ver el Torneo</a></li>
+			  <li><a href="#" class="button round">Ver las Fotos</a></li>
 			  <li><a class="txt" href="#">sobre olimpiadas especiales</a></li>
 			  <li><div class="fb-follow" data-href="https://www.facebook.com/zurb" data-layout="button_count" data-show-faces="false" data-width="450"></div></li>
 			</ul>		
