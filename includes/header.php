@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html>
+<html xmlns:fb="https://www.facebook.com/2008/fbml">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimun-scale=1.0, initial-scale=1.0" />
@@ -15,14 +15,21 @@
 	<title><?php echo $title;?></title>
 </head>
 <body <?php echo "class='".$classBody."'";?>>
+	<div class="wrapper">
 	<?php if(isset($ifNav)) echo '
 		<nav class="top-bar">
 		  <ul class="title-area">
 		    <!-- Title Area -->
 		    <li class="name">
-		      <h1><a href="index.php">&#8249; Menu </a></h1>
+		      <h1><a href="index.php"><span class="back"></span>Volver </a></h1>
 		    </li>
 		  </ul>
-		</nav>
-	';?>
 		
+		<section class="top-bar-section">
+		    <ul class="left">
+		      <li class="active oe-logo"><a href="#"></a></li>
+		      <li class="fb-logo"><a href="#"></a></li>
+			</ul>
+		</section></nav>
+	';?>
+	

@@ -1,37 +1,89 @@
 @charset "UTF-8";
 /* CSS Document */
-body{
-	margin: 2em 0 0;
+.wrapper{
+	background: url('../images/top_bar.png') repeat-x;
+	padding: 2.5em 0 0;
 }
 h1{
 	text-align:center;
 }
-.button.circle {
-	background-color: #EEEEEE;
-    border-color: #EEEEEE;    
-    border-radius: 50% 50% 50% 50%;
-    color: #000000;
-    margin:0;
-    padding: 15% 0;
-    width: 50%;
-}
+
 .side-nav{
 	width:90%;
 	margin:0 auto;
 	text-align:center;
 }
-.side-nav li a, .side-nav li.active a, .side-nav li a:hover{
-	font-family:'Ubuntu-L', 'arial', 'helvetica';
-	font-weight: normal;
-	color:#2BA6CB;
+
+.side-nav .blueB{
+	background:url("../images/bg_dotted.png") no-repeat center bottom;
+	background-size:100%;
+	padding-bottom: 1em;
 }
-.side-nav a.round{
-	background-color: transparent;
-	border-color: #BBBBBB;
-}
+
 .side-nav a.txt{
 	text-decoration: underline;
 }
+/*FACEBOOK*/
+.side-nav li.social-media a, .side-nav li.social-media a:hover{
+	background: none;
+}
+#facebook-share-holder {
+	position:relative;
+}
+
+#facebook-share-holder iframe {
+	position:absolute;
+	top: 0px;
+}
+
+#fb-logo {
+	pointer-events: none;
+	position:absolute;
+	left:0;
+	top:0;
+	background: url('../images/FB_logo.png');	
+}
+/****FOOTER*****/
+
+footer #decor{
+	max-width: 100em;
+	width:90%;
+	margin: 1em auto;
+}
+footer #decor .columns{
+	padding: 0;
+}
+footer #decor .small-2{
+	max-width: 8%;
+}
+
+footer #decor .small-10{
+	background: url("../images/small_separator.png") repeat-x center center;
+	background-size:100%;
+	padding-top: 13%;
+}
+footer #decor .small-10 img{
+	margin-top: 8%;
+}
+footer .small-centered{
+	text-align: center;
+}
+@media only screen and (min-width: 48em) {
+	footer #decor .large-2{
+	max-width: 4%;
+	}
+	footer #decor .large-11{
+	background: url("../images/big_separator.png") repeat-x center center;
+	background-size:100%;
+	padding-top: 3.4em;
+	}
+}
+@media only screen and (min-width: 55em) {
+	footer #decor .large-11{
+	padding-top: 4em;
+	}
+}
+
 @media all and (min-width:800px) {
 	.side-nav li div{
 		float: right;

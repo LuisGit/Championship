@@ -1,9 +1,106 @@
 @charset "UTF-8";
 /* CSS Document */
-.top-bar {
-    background: none repeat scroll 0 0 #83C1DC;
+body{
+	background: url('../images/main_bg.jpg') repeat;
+	margin: 0;
 }
-.top-bar .name h1 a, .top-bar .title-area {
-	width:100%;
+.wrapper{
+	background: url('../images/top_bar_nav.png') repeat-x;
 }
 
+
+/* Navigation*/
+.top-bar, .top-bar-section ul{
+	background-color: transparent;
+}
+.top-bar{
+	margin:0 0 5em;
+	height:auto;
+}
+.top-bar .title-area{
+	float: left;
+    width: 27.5%;
+}
+.top-bar .name h1 a{
+	color: #1384C0;
+    padding: 0.5em 0 0 25%;
+}
+.top-bar .name h1 a span.back{
+	background: url("../images/bt-menu.png") no-repeat scroll -5.7em 0 transparent;
+    display: inline-block;
+    height: 3em;
+    width: 2em;
+}
+.top-bar-section ul{
+	width:72.5%;
+}
+.top-bar-section ul li{
+	width:50%;
+	float:left;
+}
+.top-bar-section ul li a, .top-bar-section ul li.active > a , .top-bar-section ul li > a:hover, .top-bar-section li a:not(.button){
+	background: url("../images/bt-menu.png") no-repeat scroll 0 0 transparent;
+    float:right;	
+	height: 3em;
+	margin: 0 5% 0 0;
+	width: 3em;
+}
+.top-bar-section ul li.oe-logo a{
+	background-position:-7.8em 0.5em;
+}
+.top-bar-section ul li.fb-logo a{
+	background-position:-10.7em 0.5em;
+	margin: 0 3% 0 0;
+}
+/*Radio Buttons*/
+
+.side-nav li a, .side-nav li.active a, .side-nav li a:hover{
+	background: url("../images/small_separator.png") no-repeat 0 bottom;
+	background-size:100%;
+	box-shadow:none;
+	font-family:'Ubuntu-L', 'arial', 'helvetica';
+	font-weight: normal;
+	color:#FFFFFF;
+}
+
+.side-nav .blueB a.radius{
+	background-color: #1384c0;
+	border-color: #1384c0;
+	margin: 0;
+}
+.side-nav .active.blueB a.radius, .side-nav .blueB a.radius:hover{
+	background-color: #01618e;
+	border-color: #01618e;
+}
+.side-nav .redB a.radius{
+	background-color: #f37063;
+	border-color: #f37063;
+}
+.side-nav .redB a.radius:hover{
+	background-color: #ef3f44;
+	border-color: #ef3f44;
+}
+@media only screen and (min-width: 48em) {
+	.top-bar .name h1 a{
+	    padding-top: 0.8em;
+	    width: 100%;
+	}
+	.top-bar .name h1 a span.back{
+		background-position: 0 -0.6em;
+	    height: 1.2em;
+	    vertical-align: middle;
+	    width: 1em;
+	}
+	.top-bar-section li a:hover:not(.button){
+		background: url("../images/bt-menu.png") no-repeat scroll 0 0 transparent;
+	}
+	.top-bar-section ul li.oe-logo a, .top-bar-section li.oe-logo a:hover:not(.button){
+		background-position: -0.8em 0.2em;
+		height: 4em;
+		margin-right: 18%;
+	}
+	.top-bar-section ul li.fb-logo a , .top-bar-section li.fb-logo a:hover:not(.button){
+		background-position:-10.7em 0.5em;
+		margin: 0 15% 0 0;
+	}
+}

@@ -1,10 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
+
 .top-bar {
-    background: none repeat scroll 0 0 #83C1DC;
-}
-.top-bar .name h1 a, .top-bar .title-area {
-	width:100%;
+    margin: 0 0 5em;
 }
 
 .side-nav{
@@ -12,24 +10,15 @@
 	margin:0 auto;
 	text-align:center;
 }
-.side-nav li a, .side-nav li.active a, .side-nav li a:hover{
-	font-weight: normal;
-	color:#CCC;
-}
-.side-nav li a.radius{
-	background-color: transparent;
-	border-color: #BBBBBB;
-}
-.side-nav li.active a.radius, .side-nav li.active a.radius span{
-	background-color: #83c1dc;
-	border-color: #83c1dc;
-	color:#ffffff;
+.side-nav .blueB a.radius{
+	padding: 0.5em 1.5em;
 }
 .side-nav a span{
-	color:#2BA6CB;
+	color:#b0e4ff;
 	display:block;
-	padding:0 0 2%;
-	text-decoration: underline;
+	padding:0.7em 0 2%;
+	font-family: 'arial','helvetica';
+	font-style: italic;
 }
 
 @media all and (min-width:800px) {
