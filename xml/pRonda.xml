@@ -3,7 +3,7 @@
 	<grupos>
 		<grupoA>
 			<equipo>
-				<nombre>Costa Rica</nombre>
+				<nombre>CRC</nombre>
 				<banderaImgPath>images/cr.gif</banderaImgPath>
 				<pj>0</pj>
 				<pg>0</pg>
@@ -12,7 +12,7 @@
 				<pts>0</pts>
 			</equipo>
 			<equipo>
-				<nombre></nombre>
+				<nombre>PNM</nombre>
 				<banderaImgPath></banderaImgPath>
 				<pj></pj>
 				<pg></pg>
@@ -21,7 +21,7 @@
 				<pts></pts>
 			</equipo>
 			<equipo>
-				<nombre></nombre>
+				<nombre>NRG</nombre>
 				<banderaImgPath></banderaImgPath>
 				<pj></pj>
 				<pg></pg>
@@ -51,8 +51,8 @@
 				<pts>0</pts>
 			</equipo>
 			<equipo>
-				<nombre></nombre>
-				<banderaImgPath></banderaImgPath>
+				<nombre>Mexico</nombre>
+				<banderaImgPath>images/mexico.jpg</banderaImgPath>
 				<pj></pj>
 				<pg></pg>
 				<pe></pe>
@@ -81,8 +81,8 @@
 		
 		<grupoC>
 			<equipo>
-				<nombre></nombre>
-				<banderaImgPath></banderaImgPath>
+				<nombre>Mexico</nombre>
+				<banderaImgPath>images/mexico.jpg</banderaImgPath>
 				<pj></pj>
 				<pg></pg>
 				<pe></pe>

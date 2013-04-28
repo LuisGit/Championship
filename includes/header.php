@@ -12,6 +12,7 @@
   	<link rel="stylesheet" href="css/fonts.css" />
   	<link rel="stylesheet" href="css/site.css" />
 	<?php if($cssPage) echo '<link rel="stylesheet" type="text/css" href="css/'.$cssPage.'.css">';?>
+	<script src="js/vendor/custom.modernizr.js"></script>
 	<title><?php echo $title;?></title>
 </head>
 <body <?php echo "class='".$classBody."'";?>>
