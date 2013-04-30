@@ -20,7 +20,7 @@
 	  	<div class="row">
 			<ul class="side-nav">
 			  <li class="active blueB"><a href="seleccionRonda.php" class="button radius">Ver el Torneo</a></li>
-			  <li class="redB"><a href="#" class="button radius">Ver las Fotos</a></li>			  
+			  <li class="redB"><a href="album.php" class="button radius">Ver las Fotos</a></li>			  
 			  <li class="social-media">
 			  	<div class="small-4 columns"><a><img src="images/OE_logo.png" alt="sobre olimpiadas especiales" /></a></div>
 			  	<div class="small-4 columns"><div class="fb-like" data-href="http://www.olimpiadasespeciales.cr/" data-send="false" data-layout="button_count" data-width="20" data-show-faces="true"></div></div>
