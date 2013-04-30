@@ -2,73 +2,73 @@
 <torneo>
 	<rondaFinal>
 		<jornada id="1" fecha ="Martes, Mayo 14">
-			<encuentro id="1" hora="9:00 a.m." lugar="CF">
+			<encuentro id="1" hora="9:00 a.m." lugar="CF" penales="false">
 				<equipo1 nombre="CRC" goles="2" banderaImgPath="" ></equipo1>
 				<equipo2 nombre="MEX" goles="0" banderaImgPath="" ></equipo2>
 			</encuentro>
-			<encuentro id="2" hora="11:00 a.m." lugar="CF">
+			<encuentro id="2" hora="11:00 a.m." lugar="CF" penales="false">
 				<equipo1 nombre="" goles="" banderaImgPath="" ></equipo1>
 				<equipo2 nombre="" goles="" banderaImgPath="" ></equipo2>
 			</encuentro>
-			<encuentro id="3" hora="2:00 p.m." lugar="CF">
+			<encuentro id="3" hora="2:00 p.m." lugar="CF" penales="false">
 				<equipo1 nombre="" goles="" banderaImgPath="" ></equipo1>
 				<equipo2 nombre="" goles="" banderaImgPath="" ></equipo2>
 			</encuentro>
-			<encuentro id="4" hora="9:00 a.m." lugar="CM">
+			<encuentro id="4" hora="9:00 a.m." lugar="CM" penales="false">
 				<equipo1 nombre="" goles="" banderaImgPath="" ></equipo1>
 				<equipo2 nombre="" goles="" banderaImgPath="" ></equipo2>
 			</encuentro>
-			<encuentro id="5" hora="11:00 a.m." lugar="CM">
+			<encuentro id="5" hora="11:00 a.m." lugar="CM" penales="false">
 				<equipo1 nombre="" goles="" banderaImgPath="" ></equipo1>
 				<equipo2 nombre="" goles="" banderaImgPath="" ></equipo2>
 			</encuentro>
-			<encuentro id="6" hora="2:00 p.m." lugar="CM">
+			<encuentro id="6" hora="2:00 p.m." lugar="CM" penales="false">
 				<equipo1 nombre="" goles="" banderaImgPath="" ></equipo1>
 				<equipo2 nombre="" goles="" banderaImgPath="" ></equipo2>
 			</encuentro>
 		</jornada>
 		
 		<jornada id="2" fecha ="Miercoles, Mayo 15">
-			<encuentro id="1" hora="9:00 a.m." lugar="CF">
+			<encuentro id="1" hora="9:00 a.m." lugar="CF" penales="false">
 				<equipo1 nombre="CRC" goles="2" banderaImgPath="" ></equipo1>
 				<equipo2 nombre="MEX" goles="0" banderaImgPath="" ></equipo2>
 			</encuentro>
-			<encuentro id="2" hora="11:00 a.m." lugar="CF">
+			<encuentro id="2" hora="11:00 a.m." lugar="CF" penales="false">
 				<equipo1 nombre="" goles="" banderaImgPath="" ></equipo1>
 				<equipo2 nombre="" goles="" banderaImgPath="" ></equipo2>
 			</encuentro>
-			<encuentro id="3" hora="2:00 p.m." lugar="CF">
+			<encuentro id="3" hora="2:00 p.m." lugar="CF" penales="false">
 				<equipo1 nombre="" goles="" banderaImgPath="" ></equipo1>
 				<equipo2 nombre="" goles="" banderaImgPath="" ></equipo2>
 			</encuentro>
-			<encuentro id="4" hora="9:00 a.m." lugar="CM">
+			<encuentro id="4" hora="9:00 a.m." lugar="CM" penales="false">
 				<equipo1 nombre="" goles="" banderaImgPath="" ></equipo1>
 				<equipo2 nombre="" goles="" banderaImgPath="" ></equipo2>
 			</encuentro>
-			<encuentro id="5" hora="11:00 a.m." lugar="CM">
+			<encuentro id="5" hora="11:00 a.m." lugar="CM" penales="false">
 				<equipo1 nombre="" goles="" banderaImgPath="" ></equipo1>
 				<equipo2 nombre="" goles="" banderaImgPath="" ></equipo2>
 			</encuentro>
-			<encuentro id="6" hora="2:00 p.m." lugar="CM">
+			<encuentro id="6" hora="2:00 p.m." lugar="CM" penales="false">
 				<equipo1 nombre="" goles="" banderaImgPath="" ></equipo1>
 				<equipo2 nombre="" goles="" banderaImgPath="" ></equipo2>
 			</encuentro>
 		</jornada>
 		
 		<jornada id="3" fecha ="Jueves, Mayo 16">
-			<encuentro id="1" hora="9:00 a.m." lugar="CF">
+			<encuentro id="1" hora="9:00 a.m." lugar="CF" penales="false">
 				<equipo1 nombre="" goles="" banderaImgPath="" ></equipo1>
 				<equipo2 nombre="" goles="" banderaImgPath="" ></equipo2>
 			</encuentro>
-			<encuentro id="2" hora="11:00 a.m." lugar="CF">
+			<encuentro id="2" hora="11:00 a.m." lugar="CF" penales="false">
 				<equipo1 nombre="" goles="" banderaImgPath="" ></equipo1>
 				<equipo2 nombre="" goles="" banderaImgPath="" ></equipo2>
 			</encuentro>
-			<encuentro id="3" hora="2:00 p.m." lugar="CF">
+			<encuentro id="3" hora="2:00 p.m." lugar="CF" penales="false">
 				<equipo1 nombre="" goles="" banderaImgPath="" ></equipo1>
 				<equipo2 nombre="" goles="" banderaImgPath="" ></equipo2>
 			</encuentro>
-			<encuentro id="4" hora="4:00 p.m." lugar="CF">
+			<encuentro id="4" hora="4:00 p.m." lugar="CF" penales="false">
 				<equipo1 nombre="" goles="" banderaImgPath="" ></equipo1>
 				<equipo2 nombre="" goles="" banderaImgPath="" ></equipo2>
 			</encuentro>
