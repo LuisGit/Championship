@@ -4,7 +4,7 @@
 	$title = 'Primera Ronda';
 	$classBody="firstRound";
 	$ifNav="yes";
-	$backPage="index.php";
+	$backPage="seleccionRonda.php";
 	include('includes/header.php');
 	
 ?>
@@ -48,10 +48,45 @@ $xml = simplexml_load_file("xml/sRonda.xml",null,true)
 	*/?>
 	<div class="small-18 large-6 columns">
 	<div class="section-container accordion" data-section="accordion">
+    <style type="text/css">
+		td 
+		{
+			text-align:center;
+		}
+	</style>
+    <table width="358">
+        <tr>
+             <td colspan="18">A</td>
+        </tr>
+        <tr>
+             <td colspan="9">A</td>
+             <td colspan="9">B</td>
+        </tr>
+        <tr>
+             <td colspan="7">C</td>
+             <td colspan="5">D</td>
+             <td colspan="6">E</td>
+        </tr>
+        <tr>
+             <td colspan="2">F</td>
+             <td colspan="7">G</td>
+             <td colspan="7">H</td>
+             <td colspan="2">I</td>
+        </tr>
+        <tr>
+             <td colspan="1">J</td>
+             <td colspan="6">K</td>
+             <td colspan="5">L</td>
+             <td colspan="5">M</td>
+             <td colspan="1">N</td>
+        </tr>
+	</table>
+    
+    
 	<?php foreach($xml->xpath('rondaFinal/jornada') as $jornada){
 		$index=1;
 		?>
-					<section>
+<section>
 				    	<p class="title" data-section-title><a href="#panel<?php echo $index;?>"><?php echo $jornada['fecha'];?></a></p>
 						<div class="content" data-section-content>
 						
