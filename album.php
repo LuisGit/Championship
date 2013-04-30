@@ -25,7 +25,7 @@
 	$photoData = json_decode($rawAlbumData);
 
 	foreach($photoData->data as $data){
-		echo '<li><img src="'.$data->picture.'" width=170 border=0 /></li>';
+		echo '<li><img src="'.$data->picture.'" /></li>';
 	}
 ?>
 </ul>
