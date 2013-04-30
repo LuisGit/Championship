@@ -9,7 +9,7 @@
 	
 ?>
 <?php
-$xml = simplexml_load_file("xml/sRonda.xml",null,true) 
+	$xml = simplexml_load_file("xml/sRonda.xml",null,true) 
 		   or die("Error: Cannot create object");
 		   
 	//properties.
@@ -46,8 +46,9 @@ $xml = simplexml_load_file("xml/sRonda.xml",null,true)
 	echo " posicion: " .$arrPositions[2]->position;
 	echo " image: " .$arrPositions[2]->image;
 	*/?>
-	<div class="small-18 large-6 columns">
-	<div class="section-container accordion" data-section="accordion">
+
+<div class="small-18 large-6 columns">
+  <div class="section-container accordion" data-section="accordion">
     <style type="text/css">
 		td 
 		{
@@ -55,42 +56,39 @@ $xml = simplexml_load_file("xml/sRonda.xml",null,true)
 		}
 	</style>
     <table width="358">
-        <tr>
-             <td colspan="18">A</td>
-        </tr>
-        <tr>
-             <td colspan="9">A</td>
-             <td colspan="9">B</td>
-        </tr>
-        <tr>
-             <td colspan="7">C</td>
-             <td colspan="5">D</td>
-             <td colspan="6">E</td>
-        </tr>
-        <tr>
-             <td colspan="2">F</td>
-             <td colspan="7">G</td>
-             <td colspan="7">H</td>
-             <td colspan="2">I</td>
-        </tr>
-        <tr>
-             <td colspan="1">J</td>
-             <td colspan="6">K</td>
-             <td colspan="5">L</td>
-             <td colspan="5">M</td>
-             <td colspan="1">N</td>
-        </tr>
-	</table>
-    
-    
-	<?php foreach($xml->xpath('rondaFinal/jornada') as $jornada){
+      <tr>
+        <td colspan="18">A</td>
+      </tr>
+      <tr>
+        <td colspan="9">A</td>
+        <td colspan="9">B</td>
+      </tr>
+      <tr>
+        <td colspan="7">C</td>
+        <td colspan="5">D</td>
+        <td colspan="6">E</td>
+      </tr>
+      <tr>
+        <td colspan="2">F</td>
+        <td colspan="7">G</td>
+        <td colspan="7">H</td>
+        <td colspan="2">I</td>
+      </tr>
+      <tr>
+        <td colspan="1">J</td>
+        <td colspan="6">K</td>
+        <td colspan="5">L</td>
+        <td colspan="5">M</td>
+        <td colspan="1">N</td>
+      </tr>
+    </table>
+    <?php foreach($xml->xpath('rondaFinal/jornada') as $jornada){
 		$index=1;
 		?>
-<section>
-				    	<p class="title" data-section-title><a href="#panel<?php echo $index;?>"><?php echo $jornada['fecha'];?></a></p>
-						<div class="content" data-section-content>
-						
-						<?php
+    <section>
+      <p class="title" data-section-title><a href="#panel<?php echo $index;?>"><?php echo $jornada['fecha'];?></a></p>
+      <div class="content" data-section-content>
+        <?php
 		
 		
 		//Array to hold each encuentro on a Jornada
@@ -99,30 +97,29 @@ $xml = simplexml_load_file("xml/sRonda.xml",null,true)
 		
 		foreach($jornada->children() as $encuentro => $data){
 			?>
-				<ul>
-					<li class="flag"><img class="left" src="<?php echo $data->equipo1['banderaImgPath'];?>" alt="<?php echo $data->equipo1['nombre']?>" /><span><?php echo $data->equipo1['nombre']?></span></li>
-					<li>
-						<ul class="gray">
-							<li><?php echo $data->equipo1['goles'];?></li>
-							<li><?php echo $data->equipo2['goles'];?></li>
-						</ul>
-						<ul>
-							<li class="date"><?php echo $data['hora'];?></li>
-							<li class="divider"></li>
-							<li><?php echo $data['lugar'];?></li>
-						</ul>
-					</li>
-					<li class="flag"><span><?php echo $data->equipo2['nombre'];?></span><img class="right" src="<?php echo $data->equipo2['banderaImgPath'];?>" alt="<?php echo $data->equipo2['nombre']?>"/></li>
-				</ul>
-				<?php 
+        <ul>
+          <li class="flag"><img class="left" src="<?php echo $data->equipo1['banderaImgPath'];?>" alt="<?php echo $data->equipo1['nombre']?>" /><span><?php echo $data->equipo1['nombre']?></span></li>
+          <li>
+            <ul class="gray">
+              <li><?php echo $data->equipo1['goles'];?></li>
+              <li><?php echo $data->equipo2['goles'];?></li>
+            </ul>
+            <ul>
+              <li class="date"><?php echo $data['hora'];?></li>
+              <li class="divider"></li>
+              <li><?php echo $data['lugar'];?></li>
+            </ul>
+          </li>
+          <li class="flag"><span><?php echo $data->equipo2['nombre'];?></span><img class="right" src="<?php echo $data->equipo2['banderaImgPath'];?>" alt="<?php echo $data->equipo2['nombre']?>"/></li>
+        </ul>
+        <?php 
 				
 				$index =$index+1;
 			}
 			?>
-			</div>
-			</section>
-			
-			<?php
+      </div>
+    </section>
+    <?php
 	
 		
 		 
@@ -132,14 +129,10 @@ $xml = simplexml_load_file("xml/sRonda.xml",null,true)
 	
 	//echo $arrJornadas[1][0]->fecha;
 	
-
-	
-	
 ?>
+  </div>
 </div>
-		</div>
-	
-		
+
 <?php
 	include('includes/footer.php');
 ?>
