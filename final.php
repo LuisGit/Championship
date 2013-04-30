@@ -4,6 +4,7 @@
 	$title = 'Primera Ronda';
 	$classBody="firstRound";
 	$ifNav="yes";
+	$backPage="index.php";
 	include('includes/header.php');
 	
 ?>

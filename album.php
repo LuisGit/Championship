@@ -4,6 +4,7 @@
 	$title = 'Alb&#250;m';
 	$classBody="album";
 	$ifNav="yes";
+	$backPage="index.php";
 	include('includes/header.php');
 	
 	$FBid = 'phraseit.cr';

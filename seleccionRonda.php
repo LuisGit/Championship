@@ -4,6 +4,7 @@
 	$title = 'Seliccione la ronda';
 	$classBody="mainRound";
 	$ifNav="yes";
+	$backPage="index.php";
 	include('includes/header.php');
 	
 ?>
