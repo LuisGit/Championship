@@ -3,6 +3,7 @@
 body{
 	background: url('../images/main_bg.jpg') repeat;
 	margin: 0;
+	font-family: 'arial', 'helvetica','sans-serif';
 }
 .wrapper{
 	background: url('../images/top_bar_nav.png') repeat-x;

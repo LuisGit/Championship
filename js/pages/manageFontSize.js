@@ -16,7 +16,9 @@ $(document).ready(function() {
 	
 	/*Select a Round Page*/
 	$(".firstRound .section-container a").fitText(2, { minFontSize: '15', maxFontSize: '30' });
-	$(".firstRound .section-container li").fitText(1, { minFontSize: '15', maxFontSize: '30' });
-	$(".firstRound .section-container li.flag").fitText(1, { minFontSize: '15', maxFontSize: '25' });
+	$(".firstRound table thead th").fitText(1, { minFontSize: '15', maxFontSize: '50' });
+	$(".firstRound table td").fitText(1, { minFontSize: '13', maxFontSize: '20' });
+	$(".firstRound table td.flag").fitText(1, { minFontSize: '11', maxFontSize: '25' });
+	$(".firstRound section ul span, .firstRound section ul li").fitText(1, { minFontSize: '11', maxFontSize: '25' });
 });
 		

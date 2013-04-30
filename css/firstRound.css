@@ -2,7 +2,7 @@
 /* CSS Document */
 
 .section-container.tabs section.active, .section-container.tabs .section.active{
-	padding-top: 2.65em;
+	padding-top: 2.55em!important;
 	width: 100%;
 }
 .section-container.tabs section.active .content, .section-container.tabs .section.active .content{
@@ -29,6 +29,39 @@
 }
 .firstRound .section-container p, .firstRound{
 
+}
+.content table{
+	width: 100%;
+	border:none;
+	vertical-align: middle;
+	text-align: center;
+}
+.content table thead{
+	background-color: #0073a9;
+}
+.content table thead th{
+	color:#fff;
+	text-align: center;
+}
+.content table img{
+	width:50%;
+}
+.content table td, .content table thead th{
+	width: 12.5%;
+	border: 1px solid #0073a9;
+	padding: 0;
+}
+.content table td.flag, .content table thead th.flag{
+	width:32%;
+	padding: 0.5em;
+}
+.content table td{
+	background-color:#e0ebef;
+	
+}
+.content table p{
+	margin:7% 0 0;
+	width: 50%;
 }
 .content ul{
 	overflow: hidden;
@@ -68,30 +101,17 @@
 .content ul li a{
 	width: 100%;
 }
-@media only screen and (min-width: 30em) {
-	.content ul li.flag{
-		min-height:3em;
-	}
-}
-@media only screen and (min-width: 35em) {
-	.content ul li{
-		min-height:3.5em;
-	}
-	.content ul li.flag{
-		min-height:2.5em;
-	}
-}
+
 @media only screen and (min-width: 48em) {
-	.content ul li{
-		min-height:3em;
-	}
-	.content ul li.flag{
-		min-height:3em;
-	}
+	.content table p{
+	margin:10% 0 0;
+}
 }
 /*JORNADAS*/
 .section-container section .title, .section-container .section .title, .section-container.auto section .title, .section-container.auto .section .title{
 	background-color: #88afc0;
+	-webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
 }
 .section-container section.active .title, .section-container .section.active .title, .section-container.auto section.active .title, .section-container.auto .section.active .title{
 	background-color: #0073a9;
@@ -104,10 +124,29 @@
 	background-color: #0073a9;
 }
 .section-container.accordion section .title a, .section-container.accordion .section .title a, .section-container.accordion.auto section .title a, .section-container.accordion.auto .section .title a{
-	padding:0.5em;
+	padding:0.1em;
+}
+.section-container section.active .content{
+	-webkit-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+}
+.section-container section.active .title{
+	-webkit-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+}
+.accordion {
+	border:none;
+}
+.accordion section{
+    border: medium none;    
+    margin: 0.2em 0;
 }
 .accordion .content ul{
 	background-color: #e0eaef;
+	margin: 0 0 0.5em;
+}
+.accordion .content ul ul{
+	margin: 0;
 }
 .accordion .content ul li{
 	width: 33.3%;
@@ -115,16 +154,28 @@
 	color:#000;
 }
 .accordion .content ul li img{
-	width: 30%;
-	margin: 0 5%;
+	width: 50%;
+	margin: 0 5% 0.5em;
+}
+.accordion .content ul li.flag{
+	padding-top: 1em;
 }
 .accordion .content ul li ul li{
 	background-color: #FFFFFF;
     color: #5AA5C7;
     margin: 0;
     min-height: 2em;
-    width: 50%;
+    width: 29%;
     white-space: nowrap;
+}
+.accordion .content ul li ul li.date{
+	width: 69%;
+}
+.accordion .content ul li ul li.divider{
+	border-right: 1px solid #5AA5C7;
+    margin-top: 0.4em;
+    min-height: 1.3em;
+    width: 1%;
 }
 .accordion .content ul li ul.gray{
 	width: 70%;
@@ -136,4 +187,7 @@
     margin-left: 1%;
     min-height: 2em;
     width: 49%;
+}
+.accordion .active a{
+	background: url("../images/arrow_down.png") no-repeat scroll 96% 0.5em transparent;
 }
