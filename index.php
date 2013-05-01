@@ -19,7 +19,7 @@
 	  <div class="large-6 columns">
 	  	<div class="row">
 			<ul class="side-nav">
-			  <li class="active blueB"><a href="seleccionRonda.php" class="button radius">Ver el Torneo</a></li>
+			  <li class="blueB"><a href="seleccionRonda.php" class="button radius">Ver el Torneo</a></li>
 			  <li class="redB"><a href="album.php" class="button radius">Ver las Fotos</a></li>			  
 			  <li class="social-media">
 			  	<div class="small-4 columns"><a href="acercade.php"><img src="images/OE_logo.png" alt="sobre olimpiadas especiales" /></a></div>
