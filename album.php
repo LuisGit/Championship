@@ -18,17 +18,17 @@
 	
 ?>
 <div class="row">
-	<ul class="small-block-grid-4 large-block-grid-5">
+	<ul class="small-block-grid-3 large-block-grid-4">
 <?php
 
-	$rawAlbumData = file_get_contents('https://graph.facebook.com/'.$FBAlbumId.'/photos');
+	$rawAlbumData = file_get_contents('https://graph.facebook.com/147672652062673/photos');
 	//Interpret data with JSON
 	$photoData = json_decode($rawAlbumData);
 	$index=0;
 	foreach($photoData->data as $data){
 		
-		echo '<li><a href="#" data-reveal-id="myModal'.$index.'"><img src="'.$data->picture.'" /></a></li>';
-		echo '<li id="myModal'.$index.'" class="reveal-modal"><img src="'.$data->images[$index]->source.'" /></li>';
+		echo '<li><a href="#" data-reveal-id="myModal'.$index.'"><img src="'.$data->source.'" /></a></li>';
+		echo '<li id="myModal'.$index.'" class="small reveal-modal"><img src="'.$data->source.'" /><a class="close-reveal-modal">&#215;</a></li>';
 		$index++;
 	}
 ?>

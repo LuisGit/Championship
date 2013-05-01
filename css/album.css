@@ -7,3 +7,30 @@
 	margin: 0 auto;
 	text-align: center;
 }
+.reveal-modal{
+	border: none;
+	box-shadow: none;
+	background-color: transparent;
+}
+.reveal-modal-bg {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.88);
+}
+.reveal-modal .close-reveal-modal{
+	background: url("../images/close.png") no-repeat;
+	background-size:100%;
+	text-indent: -9999px;
+	width: 12%;
+}
+
+ul li.reveal-modal img{
+	width: 100%;
+}
+.small-block-grid-3 > li.reveal-modal, .reveal-modal {
+    margin-left: -30%;
+    width: 60%;
+}
+@media only screen and (min-width: 48em) {
+	.reveal-modal .close-reveal-modal{
+		padding:1em;
+	}
+}
