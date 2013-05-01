@@ -28,7 +28,7 @@
 	foreach($photoData->data as $data){
 		
 		echo '<li><a href="#" data-reveal-id="myModal'.$index.'"><img src="'.$data->picture.'" /></a></li>';
-		echo '<li id="myModal'.$index.'" class="reveal-modal"><img src="'.$data->images[$index]->source.'" /></li>';
+		echo '<li id="myModal'.$index.'" class="reveal-modal"><img src="'.$data->source.'" /></li>';
 		$index++;
 	}
 ?>
