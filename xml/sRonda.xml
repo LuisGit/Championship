@@ -78,63 +78,63 @@
 	<tablaPosiciones>
 		<posicion>
 			<lugar>1</lugar>
-			<nombre>Costa Rica</nombre>
-			<banderaImgPath>images/cr.gif</banderaImgPath>
+			<nombre>CRC</nombre>
+			<banderaImgPath>images/A1_CRC.png</banderaImgPath>
 		</posicion>
 		<posicion>
 			<lugar>2</lugar>
-			<nombre></nombre>
-			<banderaImgPath></banderaImgPath>
+			<nombre>UKW</nombre>
+			<banderaImgPath>images/00_unknow.png</banderaImgPath>
 		</posicion>
 		<posicion>
 			<lugar>3</lugar>
-			<nombre>Mexico</nombre>
-			<banderaImgPath>images/mexico.jpg</banderaImgPath>
+			<nombre>MEX</nombre>
+			<banderaImgPath>images/B1_Mex.png</banderaImgPath>
 		</posicion>
 		<posicion>
 			<lugar>4</lugar>
-			<nombre></nombre>
-			<banderaImgPath></banderaImgPath>
+			<nombre>UKW</nombre>
+			<banderaImgPath>images/00_unknow.png</banderaImgPath>
 		</posicion>
 		<posicion>
 			<lugar>5</lugar>
-			<nombre></nombre>
-			<banderaImgPath></banderaImgPath>
+			<nombre>UKW</nombre>
+			<banderaImgPath>images/00_unknow.png</banderaImgPath>
 		</posicion>
 		<posicion>
 			<lugar>6</lugar>
-			<nombre></nombre>
-			<banderaImgPath></banderaImgPath>
+			<nombre>UKW</nombre>
+			<banderaImgPath>images/00_unknow.png</banderaImgPath>
 		</posicion>
 		<posicion>
 			<lugar>7</lugar>
-			<nombre></nombre>
-			<banderaImgPath></banderaImgPath>
+			<nombre>UKW</nombre>
+			<banderaImgPath>images/00_unknow.png</banderaImgPath>
 		</posicion>
 		<posicion>
 			<lugar>8</lugar>
-			<nombre></nombre>
-			<banderaImgPath></banderaImgPath>
+			<nombre>UKW</nombre>
+			<banderaImgPath>images/00_unknow.png</banderaImgPath>
 		</posicion>
 		<posicion>
 			<lugar>9</lugar>
-			<nombre></nombre>
-			<banderaImgPath></banderaImgPath>
+			<nombre>UKW</nombre>
+			<banderaImgPath>images/00_unknow.png</banderaImgPath>
 		</posicion>
 		<posicion>
 			<lugar>10</lugar>
-			<nombre></nombre>
-			<banderaImgPath></banderaImgPath>
+			<nombre>UKW</nombre>
+			<banderaImgPath>images/00_unknow.png</banderaImgPath>
 		</posicion>
 		<posicion>
 			<lugar>11</lugar>
-			<nombre></nombre>
-			<banderaImgPath></banderaImgPath>
+			<nombre>UKW</nombre>
+			<banderaImgPath>images/00_unknow.png</banderaImgPath>
 		</posicion>
 		<posicion>
 			<lugar>12</lugar>
-			<nombre></nombre>
-			<banderaImgPath></banderaImgPath>
+			<nombre>UKW</nombre>
+			<banderaImgPath>images/00_unknow.png</banderaImgPath>
 		</posicion>
 	
 	</tablaPosiciones>

@@ -2,7 +2,7 @@
 //Header
 	$cssPage ='firstRound';
 	$title = 'Primera Ronda';
-	$classBody="firstRound";
+	$classBody="final";
 	$ifNav="yes";
 	$backPage="seleccionRonda.php";
 	include('includes/header.php');
@@ -24,64 +24,62 @@
 	
 	function parse_positions($xml,$xmlPath,&$arr){
 		$index=0;
+		?>
+		<div class="row">
+			<div class="small-18 large-6 columns">		
+		<?php
 		foreach($xml->xpath($xmlPath) as $position){
 			foreach($position->children() as $equipo => $data){
-				$obj = (object) array('nombre'=> $data->nombre,
-						'position'=> $data->lugar,
-						'image'=> $data->banderaImgPath);
-	
-				$arr[$index] = $obj;
+				if($index==0){
+				?><div class="row firstPlace">
+					<ul class="small-block-grid-3 large-block-grid-3">
+					  <li class="number"><?php echo $data->lugar;?></li>
+					  <li><img src="<?php echo $data->banderaImgPath;?>" /></li>
+					  <li><?php echo $data->nombre;?></li>
+					</ul>
+					</div>
+					<div class="row secondPlace">
+						
+				<?php
+				}elseif($index==1 || $index==2){
+				?>
+				<div class="small-6 large-6 columns n<?php echo $index;?>">
+						<ul class="small-block-grid-3 large-block-grid-3">
+						  <li class="number"><?php echo $data->lugar;?></li>
+						  <li><img src="<?php echo $data->banderaImgPath;?>" /></li>
+						  <li><?php echo $data->nombre;?></li>
+						</ul>
+						</div>
+				<?php
+				}elseif($index==3){?>
+					
+					</div>
+					<div class="row places">
+						<div class="small-4 large-4 columns">
+							<ul class="small-block-grid-3 large-block-grid-3">
+							  <li class="number"><?php echo $data->lugar;?></li>
+							  <li><img src="<?php echo $data->banderaImgPath;?>" /></li>
+							  <li><?php echo $data->nombre;?></li>
+							</ul>
+						</div>
+						<?php }else{?>
+						<div class="small-4 large-4 columns">
+							<ul class="small-block-grid-3 large-block-grid-3">
+							  <li class="number"><?php echo $data->lugar;?></li>
+							  <li><img src="<?php echo $data->banderaImgPath;?>" /></li>
+							  <li><?php echo $data->nombre;?></li>
+							</ul>
+						</div>
+				<?php }
 				$index = $index+1;
 			}
 		}
 	}
-	/*
-	 echo "nombre: " .$arrPositions[0]->nombre;
-	echo " posicion: " .$arrPositions[0]->position;
-	echo " image: " .$arrPositions[0]->image;
-	
-	echo "<br>";
-	
-	echo "nombre: " .$arrPositions[2]->nombre;
-	echo " posicion: " .$arrPositions[2]->position;
-	echo " image: " .$arrPositions[2]->image;
-	*/?>
-
+	?>
+				</div>
+			</div>
 <div class="small-18 large-6 columns">
   <div class="section-container accordion" data-section="accordion">
-    <style type="text/css">
-		td 
-		{
-			text-align:center;
-		}
-	</style>
-    <table width="358">
-      <tr>
-        <td colspan="18">A</td>
-      </tr>
-      <tr>
-        <td colspan="9">A</td>
-        <td colspan="9">B</td>
-      </tr>
-      <tr>
-        <td colspan="7">C</td>
-        <td colspan="5">D</td>
-        <td colspan="6">E</td>
-      </tr>
-      <tr>
-        <td colspan="2">F</td>
-        <td colspan="7">G</td>
-        <td colspan="7">H</td>
-        <td colspan="2">I</td>
-      </tr>
-      <tr>
-        <td colspan="1">J</td>
-        <td colspan="6">K</td>
-        <td colspan="5">L</td>
-        <td colspan="5">M</td>
-        <td colspan="1">N</td>
-      </tr>
-    </table>
     <?php foreach($xml->xpath('rondaFinal/jornada') as $jornada){
 		$index=1;
 		?>
@@ -130,9 +128,9 @@
 	//echo $arrJornadas[1][0]->fecha;
 	
 ?>
+</div>
   </div>
 </div>
-	
 <?php
 	include('includes/footer.php');
 ?>

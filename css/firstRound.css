@@ -191,3 +191,84 @@
 .accordion .active a{
 	background: url("../images/arrow_down.png") no-repeat scroll 96% 0.5em transparent;
 }
+
+/****FINAL****/
+.final .row .row ul{
+	margin: 0 auto 0.5em;
+	padding: 0.5em 0.5em 0;
+    text-align: center;
+}
+.final .row .row ul li{
+	padding: 0 0 0 12%;
+	font-size: 60%;
+}
+.final ul li.number{
+	padding: 0;
+	font-size: 50%;
+}
+.final .firstPlace ul {
+	border:1px solid #ffce00;
+    width: 28%;
+}
+
+.final .firstPlace ul li.number{
+	background-color:#ffce00;
+	padding: 0;
+}
+
+.final .secondPlace .n1 ul {
+	border:1px solid #a7a9ac;
+    width: 73%;
+    float: right;
+}
+.final .secondPlace .n1 .number{
+	background-color:#a7a9ac;
+}
+.final .secondPlace .n2 ul {
+	border:1px solid #b98177;
+    width: 73%;
+    float: left;
+}
+.final .secondPlace .n2 .number{
+	background-color:#b98177;
+}
+.final .places{
+	width: 100%;
+}
+.final .places div{
+	padding-left: 1.5em;
+    padding-right: 0;
+}
+.final .places ul {
+	width: 100%;
+	padding: 0;
+}
+.final .places .number{
+	background-color:#88afc0;
+}
+@media only screen and (min-width: 30em) {
+.final .row .row ul li{
+	font-size: 80%;
+}
+.final .row .row ul li.number{
+	font-size: 80%;
+}
+}
+@media only screen and (min-width: 48em) {
+	.final .firstPlace, .final .secondPlace, .final .places {
+	margin-bottom: 5%;
+	}
+	.final .row .row ul li{
+		font-size: 100%;
+	}
+	.final ul li.number{
+		font-size: 100%;
+	}
+	.final .firstPlace ul {
+		width: 50%;
+		
+	}
+	.final .secondPlace .n1 ul, .final .secondPlace .n2 ul {
+		width: 100%;
+	}
+}
