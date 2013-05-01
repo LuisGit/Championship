@@ -1,0 +1,9 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.row ul{
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}

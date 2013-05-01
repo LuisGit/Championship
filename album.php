@@ -18,18 +18,21 @@
 	
 ?>
 <div class="row">
-<ul id="display-inline-block"> 
+	<ul class="small-block-grid-4 large-block-grid-5">
 <?php
 
 	$rawAlbumData = file_get_contents('https://graph.facebook.com/'.$FBAlbumId.'/photos');
 	//Interpret data with JSON
 	$photoData = json_decode($rawAlbumData);
-
+	$index=0;
 	foreach($photoData->data as $data){
-		echo '<li><img src="'.$data->picture.'" /></li>';
+		
+		echo '<li><a href="#" data-reveal-id="myModal'.$index.'"><img src="'.$data->picture.'" /></a></li>';
+		echo '<li id="myModal'.$index.'" class="reveal-modal"><img src="'.$data->picture.'" /></li>';
+		$index++;
 	}
 ?>
-</ul>
+	</ul>
 </div>
 <?php
 	include('includes/footer.php');
