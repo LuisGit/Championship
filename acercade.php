@@ -10,8 +10,8 @@
 ?>
 
 <div class="row">
-	<div class="large-12 columns">
-    	<h2>Olimpiadas Especiales Costa Rica</h2>
+	<div class="large-10 large-offset-2 columns">
+    	<h2 class="subheader">Olimpiadas Especiales Costa Rica</h2>
 	</div>
 </div>
 
@@ -30,8 +30,8 @@
 </div>
 
 <div class="row">
-	<div class="large-12 columns">
-    	Visite nuestro sitio web oficial: <a href="http://www.olimpiadasespeciales.cr">http://www.olimpiadasespeciales.cr/</a>
+	<div class="large-8 large-offset-3 columns">
+    	<h6 class="subheader">Visite nuestro sitio web oficial: <a href="http://www.olimpiadasespeciales.cr">http://www.olimpiadasespeciales.cr/</a></h6>
     </div>
 </div>
 <?php
