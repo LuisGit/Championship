@@ -122,85 +122,85 @@
 	<jornadas id="1">
 		<jornada id="1" fecha ="Jueves, Mayo 9">
 			<encuentro id="1" hora="11:00 a.m." lugar="CF" grupo="A" penales="false">
-				<equipo1 nombre="MEX" goles="9" banderaImgPath="images/B1_Mex.png" ></equipo1>
-				<equipo2 nombre="CRC" goles="11" banderaImgPath="images/A1_CRC.png" ></equipo2>
+				<equipo1 nombre="MEX" goles="9" penales="0" banderaImgPath="images/B1_Mex.png" ></equipo1>
+				<equipo2 nombre="CRC" goles="11" penales="0" banderaImgPath="images/A1_CRC.png" ></equipo2>
 			</encuentro>
 		</jornada>
 		
 		<jornada id="2" fecha ="Viernes, Mayo 10">
 			<encuentro id="1" hora="9:00 a.m." lugar="CF" grupo="A" penales="false">
-				<equipo1 nombre="" goles="" banderaImgPath="images/00_unknow.png" ></equipo1>
-				<equipo2 nombre="" goles="" banderaImgPath="images/00_unknow.png" ></equipo2>
+				<equipo1 nombre="" goles="" penales="0" banderaImgPath="images/00_unknow.png" ></equipo1>
+				<equipo2 nombre="" goles="" penales="0" banderaImgPath="images/00_unknow.png" ></equipo2>
 			</encuentro>
 			<encuentro id="2" hora="11:00 a.m." lugar="CF" grupo="A" penales="false">
-				<equipo1 nombre="" goles="" banderaImgPath="images/00_unknow.png" ></equipo1>
-				<equipo2 nombre="" goles="" banderaImgPath="images/00_unknow.png" ></equipo2>
+				<equipo1 nombre="" goles="" penales="0" banderaImgPath="images/00_unknow.png" ></equipo1>
+				<equipo2 nombre="" goles="" penales="0" banderaImgPath="images/00_unknow.png" ></equipo2>
 			</encuentro>
 			<encuentro id="3" hora="2:00 p.m." lugar="CF" grupo="B" penales="false">
-				<equipo1 nombre="" goles="" banderaImgPath="images/00_unknow.png" ></equipo1>
-				<equipo2 nombre="" goles="" banderaImgPath="images/00_unknow.png" ></equipo2>
+				<equipo1 nombre="" goles="" penales="0" banderaImgPath="images/00_unknow.png" ></equipo1>
+				<equipo2 nombre="" goles="" penales="0" banderaImgPath="images/00_unknow.png" ></equipo2>
 			</encuentro>
 			<encuentro id="4" hora="9:00 a.m." lugar="CM" grupo="B" penales="false">
-				<equipo1 nombre="" goles="" banderaImgPath="images/00_unknow.png" ></equipo1>
-				<equipo2 nombre="" goles="" banderaImgPath="images/00_unknow.png" ></equipo2>
+				<equipo1 nombre="" goles="" penales="0" banderaImgPath="images/00_unknow.png" ></equipo1>
+				<equipo2 nombre="" goles="" penales="0" banderaImgPath="images/00_unknow.png" ></equipo2>
 			</encuentro>
 			<encuentro id="5" hora="11:00 a.m." lugar="CM" grupo="C" penales="false">
-				<equipo1 nombre="" goles="" banderaImgPath="images/00_unknow.png" ></equipo1>
-				<equipo2 nombre="" goles="" banderaImgPath="images/00_unknow.png" ></equipo2>
+				<equipo1 nombre="" goles="" penales="0" banderaImgPath="images/00_unknow.png" ></equipo1>
+				<equipo2 nombre="" goles="" penales="0" banderaImgPath="images/00_unknow.png" ></equipo2>
 			</encuentro>
 		</jornada>
 		
 		<jornada id="3" fecha ="Sabado, Mayo 11">
 			<encuentro id="1" hora="9:00 a.m." lugar="CF" grupo="B" penales="false">
-				<equipo1 nombre="" goles="" banderaImgPath="images/00_unknow.png" ></equipo1>
-				<equipo2 nombre="" goles="" banderaImgPath="images/00_unknow.png" ></equipo2>
+				<equipo1 nombre="" goles="" penales="0" banderaImgPath="images/00_unknow.png" ></equipo1>
+				<equipo2 nombre="" goles="" penales="0" banderaImgPath="images/00_unknow.png" ></equipo2>
 			</encuentro>
 			<encuentro id="2" hora="11:00 a.m." lugar="CF" grupo="B" penales="false">
-				<equipo1 nombre="" goles="" banderaImgPath="images/00_unknow.png" ></equipo1>
-				<equipo2 nombre="" goles="" banderaImgPath="images/00_unknow.png" ></equipo2>
+				<equipo1 nombre="" goles="" penales="0" banderaImgPath="images/00_unknow.png" ></equipo1>
+				<equipo2 nombre="" goles="" penales="0" banderaImgPath="images/00_unknow.png" ></equipo2>
 			</encuentro>
 			<encuentro id="3" hora="2:00 p.m." lugar="CF" grupo="A" penales="false">
-				<equipo1 nombre="" goles="" banderaImgPath="images/00_unknow.png" ></equipo1>
-				<equipo2 nombre="" goles="" banderaImgPath="images/00_unknow.png" ></equipo2>
+				<equipo1 nombre="" goles="" penales="0" banderaImgPath="images/00_unknow.png" ></equipo1>
+				<equipo2 nombre="" goles="" penales="0" banderaImgPath="images/00_unknow.png" ></equipo2>
 			</encuentro>
 			<encuentro id="4" hora="2:00 p.m." lugar="CM" grupo="A" penales="false">
-				<equipo1 nombre="" goles="" banderaImgPath="images/00_unknow.png" ></equipo1>
-				<equipo2 nombre="" goles="" banderaImgPath="images/00_unknow.png" ></equipo2>
+				<equipo1 nombre="" goles="" penales="0" banderaImgPath="images/00_unknow.png" ></equipo1>
+				<equipo2 nombre="" goles="" penales="0" banderaImgPath="images/00_unknow.png" ></equipo2>
 			</encuentro>
 			<encuentro id="5" hora="9:00 a.m." lugar="CM" grupo="C" penales="false">
-				<equipo1 nombre="" goles="" banderaImgPath="images/00_unknow.png" ></equipo1>
-				<equipo2 nombre="" goles="" banderaImgPath="images/00_unknow.png" ></equipo2>
+				<equipo1 nombre="" goles="" penales="0" banderaImgPath="images/00_unknow.png" ></equipo1>
+				<equipo2 nombre="" goles="" penales="0" banderaImgPath="images/00_unknow.png" ></equipo2>
 			</encuentro>
 			<encuentro id="6" hora="11:00 a.m." lugar="CM" grupo="C" penales="false">
-				<equipo1 nombre="" goles="" banderaImgPath="images/00_unknow.png" ></equipo1>
-				<equipo2 nombre="" goles="" banderaImgPath="images/00_unknow.png" ></equipo2>
+				<equipo1 nombre="" goles="" penales="0" banderaImgPath="images/00_unknow.png" ></equipo1>
+				<equipo2 nombre="" goles="" penales="0" banderaImgPath="images/00_unknow.png" ></equipo2>
 			</encuentro>
 		</jornada>
 		
 		<jornada id="4" fecha ="Domingo, Mayo 12">
 			<encuentro id="1" hora="9:00 a.m." lugar="CF" grupo="B" penales="false">
-				<equipo1 nombre="" goles="" banderaImgPath="images/00_unknow.png" ></equipo1>
-				<equipo2 nombre="" goles="" banderaImgPath="images/00_unknow.png" ></equipo2>
+				<equipo1 nombre="" goles="" penales="0" banderaImgPath="images/00_unknow.png" ></equipo1>
+				<equipo2 nombre="" goles="" penales="0" banderaImgPath="images/00_unknow.png" ></equipo2>
 			</encuentro>
 			<encuentro id="2" hora="11:00 a.m." lugar="CF" grupo="B" penales="false">
-				<equipo1 nombre="" goles="" banderaImgPath="images/00_unknow.png" ></equipo1>
-				<equipo2 nombre="" goles="" banderaImgPath="images/00_unknow.png" ></equipo2>
+				<equipo1 nombre="" goles="" penales="0" banderaImgPath="images/00_unknow.png" ></equipo1>
+				<equipo2 nombre="" goles="" penales="0" banderaImgPath="images/00_unknow.png" ></equipo2>
 			</encuentro>
 			<encuentro id="3" hora="2:00 p.m." lugar="CF" grupo="A" penales="false">
-				<equipo1 nombre="" goles="" banderaImgPath="images/00_unknow.png" ></equipo1>
-				<equipo2 nombre="" goles="" banderaImgPath="images/00_unknow.png" ></equipo2>
+				<equipo1 nombre="" goles="" penales="0" banderaImgPath="images/00_unknow.png" ></equipo1>
+				<equipo2 nombre="" goles="" penales="0" banderaImgPath="images/00_unknow.png" ></equipo2>
 			</encuentro>
 			<encuentro id="4" hora="2:00 p.m." lugar="CM" grupo="A" penales="false">
-				<equipo1 nombre="" goles="" banderaImgPath="images/00_unknow.png" ></equipo1>
-				<equipo2 nombre="" goles="" banderaImgPath="images/00_unknow.png" ></equipo2>
+				<equipo1 nombre="" goles="" penales="0" banderaImgPath="images/00_unknow.png" ></equipo1>
+				<equipo2 nombre="" goles="" penales="0" banderaImgPath="images/00_unknow.png" ></equipo2>
 			</encuentro>
 			<encuentro id="5" hora="9:00 a.m." lugar="CM" grupo="C" penales="false">
-				<equipo1 nombre="" goles="" banderaImgPath="images/00_unknow.png" ></equipo1>
-				<equipo2 nombre="" goles="" banderaImgPath="images/00_unknow.png" ></equipo2>
+				<equipo1 nombre="" goles="" penales="0" banderaImgPath="images/00_unknow.png" ></equipo1>
+				<equipo2 nombre="" goles="" penales="0" banderaImgPath="images/00_unknow.png" ></equipo2>
 			</encuentro>
 			<encuentro id="6" hora="11:00 a.m." lugar="CM" grupo="C" penales="false">
-				<equipo1 nombre="" goles="" banderaImgPath="images/00_unknow.png" ></equipo1>
-				<equipo2 nombre="" goles="" banderaImgPath="images/00_unknow.png" ></equipo2>
+				<equipo1 nombre="" goles="" penales="0" banderaImgPath="images/00_unknow.png" ></equipo1>
+				<equipo2 nombre="" goles="" penales="0" banderaImgPath="images/00_unknow.png" ></equipo2>
 			</encuentro>
 		</jornada>
 	</jornadas>
