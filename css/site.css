@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
+
 body{
 	background: url('../images/main_bg.jpg') repeat;
 	margin: 0;
@@ -11,6 +12,9 @@ body{
 
 
 /* Navigation*/
+.top-bar {
+    margin: 0 0 3em;
+}
 .top-bar, .top-bar-section ul{
 	background-color: transparent;
 }
@@ -85,7 +89,9 @@ body{
 h2{
 	font-family:'Ubuntu-L', 'arial', 'helvetica';
 	font-weight:normal;
+	font-size:2.500rem;
 	background:url("../images/small_separator.png") repeat-x center center;
+	background-size:100%;
 	color:#a7a9ac;
 	margin: 0 auto;
     text-align: center;
@@ -96,6 +102,9 @@ h2 span{
 	padding: 0 0.5em;
 }
 @media only screen and (min-width: 48em) {
+	.top-bar {
+	    margin: 0 0 1.5em;
+	}
 	.top-bar .name h1 a{
 	    padding-top: 0.8em;
 	    width: 100%;

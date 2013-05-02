@@ -1,6 +1,9 @@
 @charset "UTF-8";
 /* CSS Document */
-
+h2{
+	width: 100%;
+	margin-bottom: 0.5em;
+}
 .section-container.tabs section.active, .section-container.tabs .section.active{
 	padding-top: 2.55em!important;
 	width: 100%;
@@ -27,9 +30,7 @@
 		color:#ffffff;
 		text-align: center;
 }
-.firstRound .section-container p, .firstRound{
 
-}
 .content table{
 	width: 100%;
 	border:none;
@@ -101,7 +102,12 @@
 .content ul li a{
 	width: 100%;
 }
-
+.disclaimer{
+	font-size: 0.750rem;
+	font-style: italic;
+	text-align: center;
+	color:#58585a;
+}
 @media only screen and (min-width: 48em) {
 	.content table p{
 	margin:10% 0 0;

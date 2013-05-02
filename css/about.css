@@ -1,8 +1,5 @@
 @charset "UTF-8";
 /* CSS Document */
-.top-bar {
-    margin: 0 0 3em;
-}
 
 h2 span{
 	background: url('../images/main_bg.jpg') repeat;
@@ -31,9 +28,7 @@ img{
 }
 
 @media only screen and (min-width: 48em) {
-	.top-bar {
-	    margin: 0 0 1.5em;
-	}
+
 	.row .large-12 .panel{
 		width: 47%;
 		margin-bottom: 0;

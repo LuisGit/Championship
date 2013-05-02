@@ -26,7 +26,8 @@
 		$index=0;
 		?>
 		<div class="row">
-			<div class="small-18 large-6 columns">		
+			<div class="small-18 large-6 columns">
+				<h2><span>Tabla Final</span></h2>
 		<?php
 		foreach($xml->xpath($xmlPath) as $position){
 			foreach($position->children() as $equipo => $data){
@@ -79,19 +80,15 @@
 				</div>
 			</div>
 <div class="small-18 large-6 columns">
+	<h2><span>Jornadas</span></h2>
   <div class="section-container accordion" data-section="accordion">
     <?php foreach($xml->xpath('rondaFinal/jornada') as $jornada){
 		$index=1;
 		?>
-    <section <?php if (index ==0) echo 'class="active"' ?>>
+    <section <?php if ($index ==1) echo 'class="active"' ?> >
       <p class="title" data-section-title><a href="#panel<?php echo $index;?>"><?php echo $jornada['fecha'];?></a></p>
       <div class="content" data-section-content>
         <?php
-		
-		
-		//Array to hold each encuentro on a Jornada
-		$encuentros = array();
-		$index =0;
 		
 		foreach($jornada->children() as $encuentro => $data){
 			?>
@@ -124,10 +121,6 @@
     </section>
     <?php
 	
-		
-		 
-		$arrJornadas[$jornadaIndex] = $encuentros;
-		$jornadaIndex = $jornadaIndex+1;
 	}
 	
 	//echo $arrJornadas[1][0]->fecha;

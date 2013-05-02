@@ -17,23 +17,15 @@ $xml = simplexml_load_file("xml/pRonda.xml",null,true)
 	$arrGrupoA = array();
 	$arrGrupoB = array();
 	$arrGrupoC = array();
-	
-	
-	//Array to hold jornadas
-	$arrJornadas = array();
-	$jornadaIndex=0;		   
+			   
 
 	
 	//Parsing Teams.
 	?>
-	
-    <div class="row">
-  		<div class="large-6 columns"><img src="images/groupsSectionTitle.png" /></div>
-	  <div class="large-6 columns"><img src="images/journeySectionTitle.png" /></div>
-	</div>
     
 	<div class="row">
     <div class="small-18 large-6 columns">
+    	<h2><span>Grupos</span></h2>
 		<div class="section-container tabs" data-section>
 		<?php
 		parse_teams($xml,'grupos/grupoA',$arrGrupoA,'Grupo A');
@@ -88,6 +80,7 @@ $xml = simplexml_load_file("xml/pRonda.xml",null,true)
 		</div>
 		</div>
 			<div class="small-18 large-6 columns">
+			<h2><span>Jornadas</span></h2>
 				<div class="section-container accordion" data-section="accordion">
 
 	<?php
@@ -96,16 +89,11 @@ $xml = simplexml_load_file("xml/pRonda.xml",null,true)
 		foreach($jornadas->children() as $jornada){
 		$index=1;
 			?>
-			<section <?php if (index ==0) echo 'class="active"' ?> >
+			<section <?php if ($index ==1) echo 'class="active"' ?> >
 		    	<p class="title" data-section-title><a href="#panel<?php echo $index;?>"><?php echo $jornada['fecha'];?></a></p>
 				<div class="content" data-section-content>
 				
 				<?php
-			
-			
-			//Array to hold each encuentro on a Jornada
-			$encuentros = array();
-			$index =0;
 			
 			foreach($jornada->children() as $encuentro => $data){
 				?>
@@ -136,9 +124,7 @@ $xml = simplexml_load_file("xml/pRonda.xml",null,true)
 			?>
 			</div>
 			</section>
-			<?php 
-			$arrJornadas[$jornadaIndex] = $encuentros;
-			$jornadaIndex = $jornadaIndex+1;
+			<?php 			
 		}
 	}
 	
@@ -150,7 +136,7 @@ $xml = simplexml_load_file("xml/pRonda.xml",null,true)
 ?>
 			</div>
             <div class="row">
-          <div class="large-11 large-offset-1 columns"><h6 class="subheader">CM= Estadio Cuti Monge  |  CF= Estadio Colleya Fonseca</h6></div>
+          <div class="large-11 columns"><p class="disclaimer">CM= Estadio Cuti Monge  |  CF= Estadio Colleya Fonseca</p></div>
         </div>
 		</div>
         
