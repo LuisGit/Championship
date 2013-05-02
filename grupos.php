@@ -96,7 +96,7 @@ $xml = simplexml_load_file("xml/pRonda.xml",null,true)
 		foreach($jornadas->children() as $jornada){
 		$index=1;
 			?>
-			<section>
+			<section <?php if (index ==0) echo 'class="active"' ?> >
 		    	<p class="title" data-section-title><a href="#panel<?php echo $index;?>"><?php echo $jornada['fecha'];?></a></p>
 				<div class="content" data-section-content>
 				
