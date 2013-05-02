@@ -22,7 +22,7 @@
 		  <ul class="title-area">
 		    <!-- Title Area -->
 		    <li class="name">
-		      <h1><a href="index.php"><span class="back"></span>Volver </a></h1>
+		      <h1><a href="'.$backPage.'"><span class="back"></span>Volver </a></h1>
 		    </li>
 		  </ul>
 		
