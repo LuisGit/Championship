@@ -9,10 +9,6 @@
 	
 ?>
 
-
-
-
-
 <?php
 $xml = simplexml_load_file("xml/pRonda.xml",null,true) 
 		   or die("Error: Cannot create object");
@@ -30,8 +26,14 @@ $xml = simplexml_load_file("xml/pRonda.xml",null,true)
 	
 	//Parsing Teams.
 	?>
+	
+    <div class="row">
+  		<div class="large-6 columns"><img src="images/groupsSectionTitle.png" /></div>
+	  <div class="large-6 columns"><img src="images/journeySectionTitle.png" /></div>
+	</div>
+    
 	<div class="row">
-	<div class="small-18 large-6 columns">
+    <div class="small-18 large-6 columns">
 		<div class="section-container tabs" data-section>
 		<?php
 		parse_teams($xml,'grupos/grupoA',$arrGrupoA,'Grupo A');
