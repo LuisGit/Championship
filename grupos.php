@@ -137,14 +137,20 @@ $xml = simplexml_load_file("xml/pRonda.xml",null,true)
 		}
 	}
 	
+	
 	//echo $arrJornadas[1][0]->fecha;
 	
 	
 	
 ?>
 			</div>
+            <div class="row">
+          <div class="large-11 large-offset-1 columns"><h6 class="subheader">CM= Estadio Cuti Monge  |  CF= Estadio Colleya Fonseca</h6></div>
+        </div>
 		</div>
-	</div>
+        
+		
+    </div>
 <?php
 	include('includes/footer.php');
 ?>
