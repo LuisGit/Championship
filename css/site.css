@@ -82,6 +82,19 @@ body{
 	background-color: #ef3f44;
 	border-color: #ef3f44;
 }
+h2{
+	font-family:'Ubuntu-L', 'arial', 'helvetica';
+	font-weight:normal;
+	background:url("../images/small_separator.png") repeat-x center center;
+	color:#a7a9ac;
+	margin: 0 auto;
+    text-align: center;
+    width: 90%;
+}
+h2 span{
+	background: url('../images/main_bg.jpg') repeat;
+	padding: 0 0.5em;
+}
 @media only screen and (min-width: 48em) {
 	.top-bar .name h1 a{
 	    padding-top: 0.8em;

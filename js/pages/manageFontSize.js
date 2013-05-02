@@ -20,5 +20,8 @@ $(document).ready(function() {
 	$(".firstRound table td").fitText(1, { minFontSize: '13', maxFontSize: '20' });
 	$(".firstRound table td.flag").fitText(1, { minFontSize: '11', maxFontSize: '25' });
 	$(".firstRound section ul span, .firstRound section ul li, .final section ul span, .final section ul li").fitText(1, { minFontSize: '11', maxFontSize: '25' });
+	
+	/*ACERCA DE*/
+	$('.about p').fitText(2, { minFontSize: '12', maxFontSize: '14' });
 });
 		
