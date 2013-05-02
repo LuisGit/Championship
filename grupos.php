@@ -104,17 +104,11 @@ $xml = simplexml_load_file("xml/pRonda.xml",null,true)
 							<li><?php echo $data->equipo1['goles'];?></li>
 							<li><?php echo $data->equipo2['goles'];?></li>
 						</ul>
-						<ul>
-							<li class="date"><?php echo $data['hora'];?></li>
-							<li class="divider"></li>
-							<li><?php echo $data['lugar'];?></li>
+						<ul class="<?php if ($data['penales'] =='true'){?>Penales<?php }?>">
+							<li class="<?php if ($data['penales'] =='false'){?>date<?php }?>"><?php if ($data['penales'] =='true'){ echo $data->equipo1['penales'];} else{echo $data['hora'];}?></li>
+							<li class="<?php if ($data['penales'] =='true'){?>Penales<?php }else{?>divider<?php }?>">Penales</li>
+							<li><?php if ($data['penales'] =='true'){echo $data->equipo2['penales'];} else{echo $data['lugar'];}?></li>
 						</ul>
-                        <?php 
-						if ($data['penales'] =='true'){
-								echo '<div>'.$data->equipo1['penales'].' Penales '. $data->equipo2['penales'].'</div>';
-							
-							}?>
-					</li>
 					<li class="flag"><span><?php echo $data->equipo2['nombre'];?></span><img class="right" src="<?php echo $data->equipo2['banderaImgPath'];?>" alt="<?php echo $data->equipo2['nombre']?>"/></li>
 				</ul>
 				<?php 

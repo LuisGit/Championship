@@ -4,6 +4,9 @@ h2{
 	width: 100%;
 	margin-bottom: 0.5em;
 }
+.small-18{
+	margin-bottom: 3em;
+}
 .section-container.tabs section.active, .section-container.tabs .section.active{
 	padding-top: 2.55em!important;
 	width: 100%;
@@ -25,6 +28,7 @@ h2{
 }
 .section-container.tabs section.active .title, .section-container.tabs .section.active .title{
 	background-color: #ff0023;	
+	font-weight: bold;
 }
 .section-container section .title a, .section-container .section .title a, .section-container.auto section .title a, .section-container.auto .section .title a{
 		color:#ffffff;
@@ -160,11 +164,16 @@ h2{
 	color:#000;
 }
 .accordion .content ul li img{
-	width: 50%;
-	margin: 0 5% 0.5em;
+	margin: 0 5% 0;
 }
 .accordion .content ul li.flag{
-	padding-top: 1em;
+	padding-top: 0.4em;
+	padding-left: 0;
+}
+.accordion .content ul.Penales li{
+	color:#fe3835;
+	font-weight: bold;
+	font-style: italic;
 }
 .accordion .content ul li ul li{
 	background-color: #FFFFFF;
@@ -177,11 +186,15 @@ h2{
 .accordion .content ul li ul li.date{
 	width: 69%;
 }
+.accordion .content ul li ul li.Penales{
+	width: 40%;
+}
 .accordion .content ul li ul li.divider{
 	border-right: 1px solid #5AA5C7;
     margin-top: 0.4em;
     min-height: 1.3em;
     width: 1%;
+    text-indent: -9999px;
 }
 .accordion .content ul li ul.gray{
 	width: 70%;
