@@ -83,7 +83,7 @@
     <?php foreach($xml->xpath('rondaFinal/jornada') as $jornada){
 		$index=1;
 		?>
-    <section>
+    <section <?php if (index ==0) echo 'class="active"' ?>>
       <p class="title" data-section-title><a href="#panel<?php echo $index;?>"><?php echo $jornada['fecha'];?></a></p>
       <div class="content" data-section-content>
         <?php
@@ -107,6 +107,11 @@
               <li class="divider"></li>
               <li><?php echo $data['lugar'];?></li>
             </ul>
+            
+            <?php if ($data['penales'] =='true'){
+								echo '<div>'.$data->equipo1['penales'].' Penales '. $data->equipo2['penales'].'</div>';
+							
+							}?>
           </li>
           <li class="flag"><span><?php echo $data->equipo2['nombre'];?></span><img class="right" src="<?php echo $data->equipo2['banderaImgPath'];?>" alt="<?php echo $data->equipo2['nombre']?>"/></li>
         </ul>
