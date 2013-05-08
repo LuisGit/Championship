@@ -19,10 +19,6 @@
 	$backPage="index.php";
 	include('includes/header.php');
 	
-	
-	
-	
-	
 ?>
 <div class="row">
 	<ul class="small-block-grid-3 large-block-grid-4">
