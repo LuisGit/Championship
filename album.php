@@ -5,16 +5,15 @@
 	$classBody="album";
 	$ifNav="yes";
 	$backPage="index.php";
-	include('includes/header.php');
-	
 	require 'src/facebook.php';
+	include('includes/header.php');	
 	
 	// Create our Application instance (replace this with your appId and secret).
 	$facebook = new Facebook(array(
 			'appId'  => '167574096737934',
 			'secret' => 'e1d29c634bb1a9701c69d31e7ff097aa',
 	));
-	$FBid = '10151379786557121';
+	$FBid = '10151144864612121';
 	$access_token = $facebook->getAccessToken();
 	$graph_url= "https://graph.facebook.com/". $FBid ."/photos?"
 			. "access_token=" .$access_token;
@@ -28,7 +27,7 @@
 	//Interpret data with JSON
 	$photoData = json_decode($rawAlbumData);
 	$index=0;
-	foreach($photoData->data[0]->images as $data){
+	foreach($photoData->data as $data){
 		
 		echo '<li><a href="#" data-reveal-id="myModal'.$index.'"><img src="'.$data->source.'" /></a></li>';
 		echo '<li id="myModal'.$index.'" class="small reveal-modal"><img src="'.$data->source.'" /><a class="close-reveal-modal">&#215;</a></li>';
