@@ -31,6 +31,6 @@ ul li.reveal-modal img{
 }
 @media only screen and (min-width: 48em) {
 	.reveal-modal .close-reveal-modal{
-		padding:1em;
+		padding:1.5em;
 	}
 }
