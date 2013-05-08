@@ -1,12 +1,4 @@
 <?php
-//Header
-	$cssPage ='album';
-	$title = 'Alb&#250;m';
-	$classBody="album";
-	$ifNav="yes";
-	$backPage="index.php";
-	include('includes/header.php');
-	
 	require 'src/facebook.php';
 	
 	// Create our Application instance (replace this with your appId and secret).
@@ -18,6 +10,18 @@
 	$access_token = $facebook->getAccessToken();
 	$graph_url= "https://graph.facebook.com/". $FBid ."/photos?"
 			. "access_token=" .$access_token;
+
+//Header
+	$cssPage ='album';
+	$title = 'Alb&#250;m';
+	$classBody="album";
+	$ifNav="yes";
+	$backPage="index.php";
+	include('includes/header.php');
+	
+	
+	
+	
 	
 ?>
 <div class="row">
