@@ -13,7 +13,7 @@
 			'appId'  => '167574096737934',
 			'secret' => 'e1d29c634bb1a9701c69d31e7ff097aa',
 	));
-	$FBid = '10151144864612121';
+	$FBid = '10151379786557121';
 	$access_token = $facebook->getAccessToken();
 	$graph_url= "https://graph.facebook.com/". $FBid ."/photos?"
 			. "access_token=" .$access_token;
