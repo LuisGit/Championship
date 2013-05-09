@@ -1,7 +1,7 @@
 <?php
 //Header
 	$cssPage ='home';
-	$title = 'Pagina Principal';
+	$title = 'Futbol Unificado';
 	$classBody="home";
 	include('includes/header.php');
 ?>

@@ -14,6 +14,17 @@
 	<?php if($cssPage) echo '<link rel="stylesheet" type="text/css" href="css/'.$cssPage.'.css">';?>
 	<script src="js/vendor/custom.modernizr.js"></script>
 	<title><?php echo $title;?></title>
+	
+	<script>
+		function fbs_click() {
+			u="http://futbolunificado.com";
+			t="l Torneo de Fútbol Unificado";
+			i="http://futbolunificado.com/images/smallLogo.png";
+			window.open('http://www.facebook.com/sharer.php?u='+encodeURIComponent(u)+'&t='+encodeURIComponent(t)+'&i='+encodeURIComponent(i),'sharer','toolbar=0,status=0,width=626,height=436');
+			return false;
+		}
+	</script>
+	
 </head>
 <body <?php echo "class='".$classBody."'";?>>
 	<div class="wrapper">
@@ -29,7 +40,7 @@
 		<section class="top-bar-section">
 		    <ul class="left">
 		      <li class="active oe-logo"><a href="#"></a></li>
-		      <li class="fb-logo"><a href="#"></a></li>
+		      <li class="fb-logo"><a href="http://www.facebook.com/sharer.php?s=100&p[url]=http://futbolunificado.com&p[image]=http://futbolunificado.com/images/smallLogo.png&p[title]=l Torneo de Fútbol Unificado&p[summary]=1 Campeonato de Futbol Centroamericano y del caribe de futbol unificado" target="_blank"></a></li>
 			</ul>
 		</section></nav>
 	';?>
