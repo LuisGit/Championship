@@ -3,6 +3,10 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimun-scale=1.0, initial-scale=1.0" />
+	
+	<meta name="apple-mobile-web-app-title" content="AddToHome">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 	<!--[if lt IE 9]>
 				<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
@@ -11,6 +15,16 @@
   	<link rel="stylesheet" href="css/foundation.css" />
   	<link rel="stylesheet" href="css/fonts.css" />
   	<link rel="stylesheet" href="css/site.css" />
+  	
+
+	<link rel="apple-touch-icon" href="images/touch-icon-iphone.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/touch-icon-ipad.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/touch-icon-iphone4.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="images/touch-icon-ipad2.png">
+
+	<link rel="stylesheet" href="css/add2home.css">
+	<script type="text/javascript" src="src/add2home.js" charset="utf-8"></script>
+  	
 	<?php if($cssPage) echo '<link rel="stylesheet" type="text/css" href="css/'.$cssPage.'.css">';?>
 	<script src="js/vendor/custom.modernizr.js"></script>
 	<title><?php echo $title;?></title>
