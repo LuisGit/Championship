@@ -9,7 +9,7 @@
 	$FBid = '10151379786557121';
 	$access_token = $facebook->getAccessToken();
 	$graph_url= "https://graph.facebook.com/". $FBid ."/photos?"
-			. "access_token=" .$access_token;
+			. "access_token=".$access_token."&limit=200";
 
 //Header
 	$cssPage ='album';
@@ -28,8 +28,8 @@
 	//Interpret data with JSON
 	$photoData = json_decode($rawAlbumData);
 	$index=0;
+
 	foreach($photoData->data as $data){
-		
 		echo '<li><a href="#" data-reveal-id="myModal'.$index.'"><img src="'.$data->source.'" /></a></li>';
 		echo '<li id="myModal'.$index.'" class="small reveal-modal"><img src="'.$data->source.'" /><a class="close-reveal-modal">&#215;</a></li>';
 		$index++;

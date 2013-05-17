@@ -52,7 +52,7 @@
 			</equipo>
 			<equipo>
 				<nombre>MEX</nombre>
-				<banderaImgPath>images/B1_Mex.png</banderaImgPath>
+				<banderaImgPath>images/B1_MEX.png</banderaImgPath>
 				<pj></pj>
 				<pg></pg>
 				<pe></pe>
@@ -82,7 +82,7 @@
 		<grupoC>
 			<equipo>
 				<nombre>MEX</nombre>
-				<banderaImgPath>images/B1_Mex.png</banderaImgPath>
+				<banderaImgPath>images/B1_MEX.png</banderaImgPath>
 				<pj></pj>
 				<pg></pg>
 				<pe></pe>
@@ -122,7 +122,7 @@
 	<jornadas id="1">
 		<jornada id="1" fecha ="Jueves, Mayo 9">
 			<encuentro id="1" hora="11:00 a.m." lugar="CF" grupo="A" penales="true">
-				<equipo1 nombre="MEX" goles="9" penales="0" banderaImgPath="images/B1_Mex.png" ></equipo1>
+				<equipo1 nombre="MEX" goles="9" penales="0" banderaImgPath="images/B1_MEX.png" ></equipo1>
 				<equipo2 nombre="CRC" goles="11" penales="0" banderaImgPath="images/A1_CRC.png" ></equipo2>
 			</encuentro>
 		</jornada>
